@@ -4,7 +4,7 @@ A menu-driven Python console application for managing pizza orders with persiste
 
 ## Project background
 
-Created by **Prakash Bahadur G C** for **Software Design & Development**, International Study Centre, University of Huddersfield. The original portfolio was titled *Order Management Database Structure for the restaurant*. Its submission date is not specified in the supplied document.
+Created by **Prakash Bahadur G C** for **Software Design & Development**, International Study Centre, University of Huddersfield. The original portfolio was titled *Order Management Database Structure for the restaurant*.
 
 ## Features
 
@@ -49,13 +49,6 @@ The program writes `prakash.txt` in the current working directory, using eight C
 
 Use fictional customer details when trying the application. The payment field only records a yes/no status; the application does not process payments. The restaurant name in the console is retained from the coursework scenario; this is an independent student project, not an official restaurant application.
 
-## Changes from the original portfolio
-
-- Corrected the email-update dictionary key so updates persist.
-- Generate order numbers from the highest existing number instead of the list length, preventing collisions with retained orders after deletion.
-- Replaced manual comma splitting/writing with the standard CSV reader and writer.
-- Normalize whitespace in payment input.
-- Added a main function and entry-point guard for safe imports.
 
 ## Limitations and future improvements
 
