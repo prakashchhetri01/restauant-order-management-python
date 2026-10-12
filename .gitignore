@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+prakash.txt
+.idea/
+.vscode/
+.DS_Store
